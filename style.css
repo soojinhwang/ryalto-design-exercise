@@ -19,8 +19,8 @@ body {
   align-items: center;
   justify-content: space-between;
   box-shadow: 0px 2px 6px 0px rgba(86, 79, 57, 0.3);
-  position: sticky;
-  top: 0;
+  /* position: relative;
+  top: 0; */
 }
 
 .navbar-logo {
@@ -76,8 +76,45 @@ body {
 
 .chevron-header {
   background-color: #C1DBEF;
-  clip-path: polygon(0 0,100% 0%,100% 75%,50% 100%,0 75%);
+  clip-path: polygon(0 0,100% 0%,100% 85%,50% 100%,0 85%);
+  padding: 80px 120px 120px 120px;
   margin: auto 0 80px;
+}
+
+.content {
+  padding: 0px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-left {
+  width: 520px;
+}
+
+.content h1 {
+  color: #1B4D74;
+  font-family: Bitter;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+
+.content p {
+  color: #1B4D74;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  padding: 32px 0px;
+}
+
+.content img {
+  width: 480px;
 }
 
 footer {
@@ -87,6 +124,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 }
 
 .footer-logo {
